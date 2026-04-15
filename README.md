@@ -41,7 +41,7 @@ trading_bot/
 ### 1. Clone Repository
 
 ```
-git clonehttps://github.com/OwaisKhan08093/Binance_bot
+git clone https://github.com/OwaisKhan08093/Binance_bot
 ```
 
 ---
