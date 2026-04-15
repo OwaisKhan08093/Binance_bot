@@ -1,0 +1,26 @@
+2026-04-14 23:21:51,406 - INFO - MARKET BUY BTCUSDT 0.001 None
+2026-04-14 23:21:52,328 - ERROR - APIError(code=-2014): API-key format invalid.
+2026-04-15 15:24:41,515 - INFO - CLI Input: Namespace(symbol='BTCUSDT', side='BUY', type='MARKET', quantity='0.001', price=None)
+2026-04-15 15:24:41,922 - INFO - MARKET BUY BTCUSDT 0.001 None
+2026-04-15 15:24:42,724 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-15 15:24:42,725 - ERROR - CLI Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-04-15 15:33:27,084 - INFO - CLI Input: Namespace(symbol='BTCUSDT', side='BUY', type='MARKET', quantity='0.001', price=None)
+2026-04-15 15:33:28,483 - INFO - MARKET BUY BTCUSDT 0.001 None
+2026-04-15 15:33:28,990 - ERROR - APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-04-15 15:33:28,990 - ERROR - CLI Error: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-04-15 15:50:15,717 - INFO - CLI Input: Namespace(symbol='BTCUSDT', side='BUY', type='MARKET', quantity='0.001', price=None)
+2026-04-15 15:50:20,052 - INFO - MARKET BUY BTCUSDT 0.001 None
+2026-04-15 15:50:21,583 - INFO - {'orderId': 13036794709, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJa8c839e7642edc2ba8c66e', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776248421493}
+2026-04-15 15:51:10,971 - INFO - CLI Input: Namespace(symbol='BTCUSDT', side='BUY', type='MARKET', quantity='0.001', price=None)
+2026-04-15 15:51:11,255 - INFO - MARKET BUY BTCUSDT 0.001 None
+2026-04-15 15:51:11,572 - INFO - {'orderId': 13036796009, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJcfb6b12c075d9c977724f4', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776248471491}
+2026-04-15 15:52:49,428 - INFO - CLI Input: Namespace(symbol='BTCUSDT', side='BUY', type='MARKET', quantity='0.001', price=None)
+2026-04-15 15:52:50,786 - INFO - MARKET BUY BTCUSDT 0.001 None
+2026-04-15 15:52:52,269 - INFO - {'orderId': 13036798165, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ47953de1f511349670f876', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776248572191}
+2026-04-15 15:53:01,473 - INFO - CLI Input: Namespace(symbol='BTCUSDT', side='SELL', type='LIMIT', quantity='0.001', price='65000')
+2026-04-15 15:53:01,756 - INFO - LIMIT SELL BTCUSDT 0.001 65000.0
+2026-04-15 15:53:02,006 - ERROR - APIError(code=-4024): Limit price can't be lower than 70249.65.
+2026-04-15 15:53:02,006 - ERROR - CLI Error: APIError(code=-4024): Limit price can't be lower than 70249.65.
+2026-04-15 15:53:54,397 - INFO - CLI Input: Namespace(symbol='BTCUSDT', side='SELL', type='LIMIT', quantity='0.001', price='71000')
+2026-04-15 15:53:55,827 - INFO - LIMIT SELL BTCUSDT 0.001 71000.0
+2026-04-15 15:53:56,359 - INFO - {'orderId': 13036799408, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJcb49f505c6288cc3fbc94e', 'price': '71000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1776248636266}
